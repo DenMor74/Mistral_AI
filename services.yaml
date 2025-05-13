@@ -1,0 +1,16 @@
+chat:
+  name: Generate text
+  description: Generate text using Mistral AI models
+  fields:
+    prompt:
+      description: Input text/prompt
+      required: true
+      example: "Explain quantum computing in simple terms"
+    temperature:
+      description: Controls randomness (0.0-1.0)
+      required: false
+      default: 0.7
+    max_tokens:
+      description: Maximum length of response
+      required: false
+      default: 300

@@ -1,0 +1,39 @@
+{
+  "title": "Mistral AI Conversation",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Mistral AI Conversation",
+        "description": "Enter your Mistral AI API key and configure the conversation settings.",
+        "data": {
+          "api_key": "API Key",
+          "model": "Model",
+          "temperature": "Temperature",
+          "top_p": "Top P",
+          "max_tokens": "Max Tokens",
+          "chat_history": "Chat History Length",
+          "prompt": "System Prompt"
+        }
+      }
+    },
+    "error": {
+      "invalid_api_key": "Invalid API key. Please check your Mistral AI API key and try again."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Mistral AI Conversation Options",
+        "description": "Configure Mistral AI conversation settings.",
+        "data": {
+          "model": "Model",
+          "temperature": "Temperature",
+          "top_p": "Top P",
+          "max_tokens": "Max Tokens",
+          "chat_history": "Chat History Length",
+          "prompt": "System Prompt"
+        }
+      }
+    }
+  }
+}
