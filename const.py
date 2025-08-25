@@ -19,3 +19,4 @@ DEFAULT_TOP_P = 0.9
 DEFAULT_MAX_TOKENS = 1024
 DEFAULT_CHAT_HISTORY = 10
 DEFAULT_PROMPT = "Ты полезный ИИ-ассистент, интегрированный в Home Assistant. Отвечай кратко и по делу, используя предоставленные инструменты, если требуется."
+DOMAIN = "mistral_conversation"
